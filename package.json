@@ -1,0 +1,23 @@
+{
+  "name": "curso-nodejs",
+  "version": "1.0.0",
+  "description": "Curso de Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Alairton Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "dotenv-safe": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.4.5",
+    "njs": "^0.0.2"
+  }
+}
